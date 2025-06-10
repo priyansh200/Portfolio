@@ -10,7 +10,7 @@ import {
     FaNodeJs,
     FaReact
 } from 'react-icons/fa';
-import { SiFirebase, SiMongodb, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
+import { SiSpringboot, SiMongodb, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 const skills = [
   { name: 'React', level: 90, icon: <FaReact className="text-[#61DAFB]" /> },
@@ -21,6 +21,8 @@ const skills = [
   { name: 'Tailwind CSS', level: 85, icon: <SiTailwindcss className="text-[#06B6D4]" /> },
   { name: 'Next.js', level: 50, icon: <SiNextdotjs /> },
   { name: 'MongoDB', level: 70, icon: <SiMongodb className="text-[#47A248]" /> },
+  { name: 'Spring Boot', level: 60, icon: <SiSpringboot className="text-[#6DB33F]" /> },
+  { name: 'Java', level: 60, icon: <SiSpringboot className="text-[#007396]" /> },
 
   { name: 'SQL', level: 65, icon: <FaDatabase className="text-[#4479A1]" /> },
   { name: 'Git', level: 85, icon: <FaGitAlt className="text-[#F05032]" /> },
