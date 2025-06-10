@@ -73,12 +73,12 @@ const Hero = () => {
               className="text-5xl md:text-7xl font-bold mt-2 mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 3, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="gradient-text">Priyansh</span>
             </motion.h1>
 
-            {/* Role animation - updated duration */}
+            {/* Role animation - updated for continuous repetition */}
             <motion.div
               className="h-16 md:h-20 mb-8 relative overflow-hidden"
               initial={{ opacity: 0 }}
@@ -91,7 +91,7 @@ const Hero = () => {
                   y: ["0%", "-100%", "-200%", "-300%", "-400%", "0%"]
                 }}
                 transition={{
-                  duration: 25, // 🔁 Slower animation
+                  duration: 40, 
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
